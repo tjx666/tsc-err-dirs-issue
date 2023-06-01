@@ -1,0 +1,6 @@
+{
+    "name": "app",
+    "devDependencies": {
+        "@tools/tsconfig": "workspace:*"
+    }
+}

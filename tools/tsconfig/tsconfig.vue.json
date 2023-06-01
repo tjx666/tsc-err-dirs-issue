@@ -1,0 +1,23 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        /* Projects */
+        "composite": false,
+        // FIXME: 会导致提示失效
+        // "moduleResolution": "bundler",
+
+        /* Language and Environment */
+        "lib": ["DOM", "ESNext", "DOM.Iterable"],
+        "jsx": "preserve",
+
+        /* Modules */
+        "types": ["vite/client"],
+
+        /* Emit */
+        "declaration": false
+    },
+    /* volar config */
+    "vueCompilerOptions": {
+        "target": 2.7
+    }
+}
